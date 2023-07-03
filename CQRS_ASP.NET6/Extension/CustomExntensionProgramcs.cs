@@ -8,6 +8,9 @@ namespace CQRS_ASP.NETCore6.Extension
         {
             services.AddScoped<GetStudentByIdQueryHandler>();
             services.AddScoped<GetAllStudentsQueryHandler>();
+            services.AddScoped<CreateStudendCommandHandler>();
+            services.AddScoped<UpdateStudentCommandHandler>();
+            services.AddScoped<DeleteStudentCommandHandler>();
         }
     }
 }

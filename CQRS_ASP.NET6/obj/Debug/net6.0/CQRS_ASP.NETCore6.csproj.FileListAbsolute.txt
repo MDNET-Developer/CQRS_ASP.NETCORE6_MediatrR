@@ -66,3 +66,7 @@ D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\obj\Debug\net6.0\CQRS_ASP.NETCore6.gen
 D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\obj\Debug\net6.0\ref\CQRS_ASP.NETCore6.dll
 D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\Humanizer.dll
 D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\MediatR.dll
+D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\MyProjects\CQRS_ASP.NET6\CQRS_ASP.NET6\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

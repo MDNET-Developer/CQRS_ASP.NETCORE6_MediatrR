@@ -1,6 +1,9 @@
-﻿namespace CQRS_ASP.NETCore6.CQRS.Queries
+﻿using CQRS_ASP.NETCore6.CQRS.Results;
+using MediatR;
+
+namespace CQRS_ASP.NETCore6.CQRS.Queries
 {
-    public class GetStudentByIdQuery
+    public class GetStudentByIdQuery:IRequest<GetStudentByIdQueryResult>
     {
         public int Id { get; set; }
 

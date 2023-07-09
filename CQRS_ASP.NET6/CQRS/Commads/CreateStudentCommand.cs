@@ -1,6 +1,8 @@
-﻿namespace CQRS_ASP.NETCore6.CQRS.Commads
+﻿using MediatR;
+
+namespace CQRS_ASP.NETCore6.CQRS.Commads
 {
-    public class CreateStudentCommand
+    public class CreateStudentCommand:IRequest
     {
         public string? Name { get; set; }
         public string? Surname { get; set; }

@@ -39,13 +39,13 @@ namespace CQRS_ASP.NETCore6.Controllers
             var data = await _mediator.Send(new GetStudentByIdQuery(id));
             return Ok(data);
         }
-        //[HttpPost]
-        //public async Task<IActionResult> CreateStudent(CreateStudentCommand command)
-        //{
+        [HttpPost]
+        public async Task<IActionResult> CreateStudent(CreateStudentCommand command)
+        {
 
-        //    await _createStudent.HandlerAsync(command);
-        //    return Ok();
-        //}
+            await _mediator.Send(command);
+            return Ok();
+        }
         [HttpGet]
         public async Task<IActionResult> GetAllStudent()
         {
@@ -55,20 +55,20 @@ namespace CQRS_ASP.NETCore6.Controllers
         }
 
 
-        //[HttpPut]
-        //public async Task<IActionResult> UpdateStudent(UpdateStudentCommand command)
-        //{
+        [HttpPut]
+        public async Task<IActionResult> UpdateStudent(UpdateStudentCommand command)
+        {
 
-        //    await _updateStudent.HandlerAsync(command);
-        //    return Ok();
-        //}
+            await _mediator.Send(command);
+            return Ok();
+        }
 
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteStudent(int id)
-        //{
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteStudent(int id)
+        {
 
-        //    await _deleteStudent.HandlerAsync(new DeleteStudentCommand(id));
-        //    return Ok();
-        //}
+            await _mediator.Send(new DeleteStudentCommand(id));
+            return Ok();
+        }
     }
 }

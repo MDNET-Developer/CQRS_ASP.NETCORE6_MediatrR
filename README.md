@@ -15,7 +15,7 @@
     </nav>
     <main>
       <section>
-            <h2>Contact</h2>
+            <h2>About</h2>
             <p>Explanation , Linkedin ➞ <a href="https://www.linkedin.com/posts/murad-aliyev-85318024b_cqrsmediatr-activity-7083344625318387712-zkGL?utm_source=share&utm_medium=member_desktop">Murad Aliyev</a>.</p>
         </section>
         <section>

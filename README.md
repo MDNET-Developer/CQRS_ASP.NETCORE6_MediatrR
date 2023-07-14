@@ -24,7 +24,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 My Hotel Project. All rights reserved.</p>
+        <p>&copy; 2023 CQRS. All rights reserved.</p>
     </footer>
 </body>
 </html>
